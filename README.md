@@ -216,43 +216,6 @@ olist-marketplace-analysis/
 
 ## Setup and Installation
 
-### Prerequisites
-- Python 3.8 or higher
-- pip
-
-### Option 1 — Google Colab (Recommended)
-
-1. Upload the dataset Excel file to your Google Drive
-2. Open `analysis.ipynb` directly in Google Colab via the GitHub link or by uploading
-3. In **Cell 2**, update the file path:
-   ```python
-   FILE = '/content/drive/MyDrive/Document from singhlink4.xlsx'
-   ```
-4. Run all cells in order from top to bottom
-5. Charts will be saved in the current working directory
-
-### Option 2 — Local Environment
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/olist-marketplace-analysis.git
-cd olist-marketplace-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Place the dataset Excel file in the Dataset/ folder
-# Update the FILE path in Cell 2 of the notebook if needed
-
-# Launch Jupyter
-jupyter notebook analysis.ipynb
-```
-
-### Dataset File
-
-The dataset is available on Kaggle:
-[https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-
 In this project the 9 CSV files were provided as a single consolidated Excel workbook with one sheet per table. If you are using the original Kaggle CSV files, Cell 2 of the notebook will need to be updated to load each file separately using `pd.read_csv()`.
 
 ---
