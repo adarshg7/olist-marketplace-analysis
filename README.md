@@ -501,5 +501,3 @@ Delivery delay is calculated as `order_delivered_customer_date - order_estimated
 Submitted for the **Data Analytics Hackathon conducted by Gradient**
 
 ---
-
-*This analysis uses the Brazilian E-Commerce Public Dataset by Olist, published on Kaggle under a Creative Commons Attribution-NonCommercial-ShareAlike license. Please verify current license terms on the Kaggle page before any commercial or redistribution use.*
