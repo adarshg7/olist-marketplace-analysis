@@ -86,5 +86,6 @@ behavior, and what Olist should prioritize as a result.
 
 ---
 
-## Repository Structure
+
+
 
